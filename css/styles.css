@@ -1,0 +1,18 @@
+* {
+	--UDG-Red: rgb(255, 67, 46);
+	--White: rgb(255, 255, 255);
+}
+
+body {
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: 100px 500px 1000px;
+}
+
+nav {
+	background-color: var(--White);
+}
+
+#logo {
+	width: 200px;
+}
