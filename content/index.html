@@ -6,6 +6,7 @@
 		<title>PIA UDG</title>
 
 		<link rel="stylesheet" href="../css/styles.css" />
+		<link rel="stylesheet" href="../css/hamburger.css" />
 	</head>
 	<body>
 		<nav>
@@ -19,10 +20,27 @@
 				<a href="">Placeholder</a>
 			</div>
 			<div id="nav-container-hamburger">
-				<img id="burger" src="../assets/Hamburger_icon.svg.png" alt="" />
+				<a href="">
+					<img id="burger" src="../assets/Hamburger_icon.svg.png" alt="" />
+				</a>
 			</div>
 		</nav>
+		<button onclick="hamburger()">
+			<div class="row">
+				<input type="checkbox" id="hamburger" />
+				<label for="hamburger" class="hamburger">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</label>
+			</div>
+		</button>
 
-		<header></header>
+		<p id="test" class="test">haha</p>
 	</body>
+	<script>
+		function hamburger() {
+			document.getElementById('test').style.marginLeft = '0px';
+		}
+	</script>
 </html>
