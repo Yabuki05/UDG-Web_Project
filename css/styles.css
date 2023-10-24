@@ -8,6 +8,7 @@ body {
 	margin: 0 auto;
 	display: grid;
 	grid-template-rows: 80px 500px 1000px;
+	grid-template-columns: 100%;
 	background-color: gray;
 }
 
@@ -52,4 +53,12 @@ nav > div {
 
 #burger {
 	width: 20px;
+}
+
+#test.test {
+	display: flex;
+	margin-left: 2000px;
+	justify-content: center;
+
+	transition: ease-out 0.5s;
 }
