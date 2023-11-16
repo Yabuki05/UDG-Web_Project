@@ -7,48 +7,9 @@
 body {
 	margin: 0 auto;
 	display: grid;
-	grid-template-rows: 80px 500px 1000px;
+	grid-template-rows: 200px 1500px 1000px;
 	grid-template-columns: 100%;
 	background-color: gray;
-}
-
-nav {
-	display: grid;
-	grid-gap: 5px;
-	grid-template-columns: 1fr 8fr 1fr;
-
-	background-color: var(--White);
-}
-
-nav > div {
-	display: flex;
-	align-items: center;
-}
-
-#nav-container-logo {
-	grid-column: 1/2;
-}
-
-#logo {
-	width: 200px;
-	height: 37px;
-	padding: 5px;
-}
-
-#nav-container-navigation {
-	grid-column: 2/3;
-
-	justify-content: space-around;
-}
-
-#nav-container-navigation > a {
-	padding: 5px;
-}
-
-#nav-container-hamburger {
-	grid-column: 3/4;
-
-	justify-content: space-around;
 }
 
 #burger {
