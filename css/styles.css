@@ -7,19 +7,40 @@
 body {
 	margin: 0 auto;
 	display: grid;
-	grid-template-rows: 200px 1500px 1000px;
+	grid-template-rows: 150px 1080px 1000px 700px;
 	grid-template-columns: 100%;
-	background-color: gray;
+	background-color: rgb(255, 255, 255);
+
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+	line-height: 1.52380952;
 }
 
-#burger {
-	width: 20px;
+nav {
+	grid-row: 1/2;
 }
 
-#test.test {
-	display: flex;
-	margin-left: 2000px;
-	justify-content: center;
+header {
+	grid-row: 2/3;
+	min-width: 1000px; /* muss noch genau befiniert werden */
+}
 
-	transition: ease-out 0.5s;
+main {
+	grid-column: 3/4;
+}
+
+footer {
+	grid-row: 4/5;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+ul {
+	list-style: none;
 }
