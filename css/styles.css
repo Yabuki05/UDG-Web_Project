@@ -7,13 +7,14 @@
 body {
 	margin: 0 auto;
 	display: grid;
-	grid-template-rows: 150px 1080px 1000px 700px;
+	grid-template-rows: 80px 1000px auto 620px;
 	grid-template-columns: 100%;
 	background-color: rgb(255, 255, 255);
+	overflow-x: hidden; /*temporary - header slideshow width needs to be defined*/
 
 	color: white;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
+	font-size: 21px;
 	font-weight: 400;
 	letter-spacing: 0.6px;
 	line-height: 1.52380952;
@@ -29,7 +30,7 @@ header {
 }
 
 main {
-	grid-column: 3/4;
+	grid-row: 3/4;
 }
 
 footer {
@@ -43,4 +44,27 @@ a {
 
 ul {
 	list-style: none;
+}
+
+h2,
+h3 {
+	color: rgb(37, 46, 52);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 5.25rem;
+	font-weight: 100;
+	letter-spacing: 0.37pt;
+	line-height: 1;
+	word-wrap: break-word;
+	hyphens: auto;
+	font-style: normal;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:hover,
+h3:hover {
+	transition-duration: 0.2s;
+	color: rgb(255, 67, 46);
 }

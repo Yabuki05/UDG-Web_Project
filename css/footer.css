@@ -1,7 +1,19 @@
 #footer-container {
 	grid-column: 4/5;
-	height: 700px;
+	height: 620px;
 	background-color: rgb(37, 46, 52);
+	font-size: 16px;
+}
+
+#footer-logo {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+#footer-logo > img {
+	width: 200px;
+	height: auto;
 }
 
 #footer-list {
@@ -10,7 +22,7 @@
 }
 
 #footer-list > ul {
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 #footer-list > ul > li {
@@ -18,7 +30,7 @@
 }
 
 #footer-list > ul > ul {
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 #footer-list > ul > ul > li {
@@ -29,4 +41,11 @@
 
 #footer-list > ul > ul > li:hover {
 	color: white;
+}
+
+#footer-tag {
+	margin-top: 50px;
+	color: gray;
+	display: flex;
+	justify-content: center;
 }
