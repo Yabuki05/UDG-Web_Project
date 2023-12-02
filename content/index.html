@@ -8,15 +8,16 @@
 
 	<link rel="icon" type="image/x-icon" href="../assets/UDG-Favicon.ico">
 
-	<link rel="stylesheet" href="../css/styles.css" />
-	<link rel="stylesheet" href="../css/hamburger.css" />
-	<link rel="stylesheet" href="../css/slideshow.css">
-	<link rel="stylesheet" href="../css/navigation.css">
-	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/styles.css" />	
+	<link rel="stylesheet" href="../css/modules/navigation.css">
+	<link rel="stylesheet" href="../css/modules/footer.css">
+	<link rel="stylesheet" href="../css/modules/main.css">
+
 	<link rel="stylesheet" href="../css/viewport.css">
-	<link rel="stylesheet" href="../css/main.css">
 
 	<link rel="stylesheet" href="../css/components/buttons.css">
+	<link rel="stylesheet" href="../css/components/hamburger.css" />
+	<link rel="stylesheet" href="../css/components/slideshow.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
@@ -221,20 +222,6 @@
 		</div>
 	</footer>
 </body>
-<script>
-	window.onscroll = function() {scrollFunction()};
-		function scrollFunction() {
-  			const nav = document.getElementById("navbar");
-			if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {   			
-				nav.classList.add("scrolled");
-				document.getElementById("logo").src="../assets/UDG-Logo-black.png";
-				document.getElementById("burger").src="../assets/Hamburger-Icon-black.svg.png";
-  				} else {
-				nav.classList.remove("scrolled");
-				document.getElementById("logo").src="../assets/UDG-Logo-white.png";
-				document.getElementById("burger").src="../assets/Hamburger-Icon-white.svg.png";				
-				}
-			}
-</script>
+<script src="../js/navbar.js"></script>
 <script src="../js/hamburger.js"></script>
 </html>
