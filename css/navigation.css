@@ -1,7 +1,7 @@
 nav {
 	display: grid;
 	grid-template-columns: 30% 60% 10%;
-	grid-template-rows: 150px;
+	grid-template-rows: 80px;
 	z-index: 2;
 	background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(10, 10, 10, 0.6) 100%);
 	position: fixed;
@@ -13,6 +13,8 @@ nav {
 .scrolled {
 	background: none;
 	background-color: white;
+	border-bottom: 5px solid;
+	border-color: rgba(0, 0, 0, 0.034);
 }
 
 .scrolled > div > ul > li > a {
@@ -37,7 +39,7 @@ nav {
 }
 
 .logo-long {
-	width: 300px;
+	width: 200px;
 	height: auto;
 	padding: 10px;
 	margin-left: 80px;
@@ -54,15 +56,10 @@ li {
 }
 
 li > a {
-	font-size: 30px;
+	font-size: 16px;
 	font-weight: 800;
 	text-decoration: none;
 	text-transform: uppercase;
-}
-
-li > a:hover {
-	transition-duration: 0.2s;
-	color: rgb(255, 67, 46);
 }
 
 .scrolled > div > ul > li > a:hover {

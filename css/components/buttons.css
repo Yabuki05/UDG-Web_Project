@@ -1,0 +1,17 @@
+.button-more {
+	height: 50px;
+	width: 150px;
+	display: block;
+	margin: 20px auto 20px auto;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(255, 67, 46);
+	border: 1.5px solid;
+	border-color: rgb(255, 67, 46);
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.button-more:hover {
+	background-color: rgba(255, 67, 46, 0.176);
+}
