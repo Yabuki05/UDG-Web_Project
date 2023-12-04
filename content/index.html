@@ -24,41 +24,70 @@
 
 <body>
 	<nav id="navbar">			
-			<div id="nav-container-logo">
-				<img class="logo-long logo-white" id="logo" src="../assets/UDG-Logo-white.png" alt="" />	
-			</div>
-			<div id="nav-container-navigation">
-				<ul >
-					<li><a href=""><nobr>Über Uns</nobr></a></li>
-					<li><a href="">Karriere</a></li>
-					<li><a href="">Blog</a></li>
-					<li><a href="">Kontakt</a></li>
-					<li><a href="">Test</a></li>
-				</ul>
-			</div>
-			<div id="nav-container-hamburger">
-				<a href="">
-					<img id="burger" src="../assets/Hamburger-Icon-white.svg.png" alt="" />
-				</a>
-			</div>		
+		<div id="nav-container-logo">
+			<a href="index.html">
+				<img class="logo-long" id="logo" src="../assets/UDG-Logo-white.png" alt="" />	
+			</a>
+		</div>
+		<div id="nav-container-navigation">
+			<ul >
+				<li><a href="über-uns.html"><nobr>Über Uns</nobr></a></li>
+				<li><a href="karriere.html">Karriere</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+		</div>
+		<a id="burger" class="nav-toggle scrolled-burger" onclick="hamburgerNavBar()">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>		
 	</nav>
+	<div id="nav-hamburger-navbar" class="pos">
+		<img class="logo-long logo-hamburger" id="logo" src="../assets/UDG-Logo-white.png" alt="" />
+		<ul>
+			<li>Seiten</li>
+			<ul>
+				<li><a href="über-uns.html"><nobr>Über Uns</nobr></a></li>
+				<li><a href="karriere.hrml">Karriere</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li> <br><br>
+			</ul>			
+			<li><nobr>Social Media</nobr></li>
+			<ul>
+				<li><a href="https://twitter.com/">Twitter</a></li>
+				<li><a href="https://de-de.facebook.com/">Facebook</a></li>
+				<li><a href="https://www.instagram.com/">Instagram</a></li>
+				<li><a href="https://www.xing.com/?gad_source=1">Xing</a></li>
+				<li><a href="https://de.linkedin.com/">LinkedIn</a></li> <br><br>
+			</ul>			
+			<li>Firma</li>
+			<ul>
+				<li><a href="">Impressum</a></li>
+				<li><a href="">AGB</a></li>
+				<li><a href="">Datenschutz</a></li>
+			</ul>			
+		</ul>
+	</div>	
 	<header>
 		<div class="slideshow-container">
 
-			<div class="slides fade">
-				
+			<div class="slides fade">				
 				<img src="../assets/startseite1920x1080.jpg" style="width:100%">
-				<div class="slides-caption">Caption Text</div>
+				<div class="slides-caption">
+					Hey! <br>
+					Wie können wir dir helfen?
+				</div>
 			</div>
 
 			<div class="slides fade">			
 				<img src="../assets/ueberuns1920x1080.jpg" style="width:100%">
-				<div class="slides-caption">Caption Two</div>
+				<div class="slides-caption">Teamwork</div>
 			</div>
 
 			<div class="slides fade">				
 				<img src="../assets/Services-Stage-01-1920.jpg" style="width:100%">
-				<div class="slides-caption">Caption Three</div>
+				<div class="slides-caption">Innovation</div>
 			</div>
 
 			<a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -176,43 +205,40 @@
 				<ul>
 					<li>Seiten</li>
 					<ul>
-						<li>Über uns</li>
-						<li>Karriere</li>
-						<li>Blog</li>
-						<li>Kontakt</li>
-						<li>Test</li>
-						<li>Test</li>
+						<li><a href="über-uns.html">Über uns</a></li>
+						<li><a href="karriere.html">Karriere</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
 					</ul>
 				</ul>
 				<ul>
 					<li>PIA Group</li>
 					<ul>
-						<li>DYMATRIX</li>
-						<li>ECONDA</li>
-						<li>FeedDynamix</li>
-						<li>Media</li>
-						<li>NORDPOL+</li>
-						<li>UDG</li>
+						<li><a href="https://www.dymatrix.de/">DYMATRIX</a></li>
+						<li><a href="https://www.econda.de/">ECONDA</a></li>
+						<li><a href="https://feed-dynamix.de/">FeedDynamix</a></li>
+						<li><a href="https://piamedia.com/">Media</a></li>
+						<li><a href="https://www.nordpol.com/index.php#!/communication/start">NORDPOL+</a></li>
+						<li><a href="index.html">UDG</a></li>
 					</ul>
 				</ul>
 				<ul>
-					<li>Social Media</li>
+					<li><nobr>Social Media</nobr></li>
 					<ul>
-						<li>Twitter</li>
-						<li>Instagram</li>
-						<li>LinkedIn</li>
-						<li>Facebook</li>
-						<li>Xing</li>
+						<li><a href="https://twitter.com/">Twitter</a></li>
+						<li><a href="https://www.instagram.com/">Instagram</a></li>
+						<li><a href="https://de.linkedin.com/">LinkedIn</a></li>
+						<li><a href="https://de-de.facebook.com/">Facebook</a></li>
+						<li><a href="https://www.xing.com/?gad_source=1">Xing</a></li>
 					</ul>
 				</ul>
 				<ul>
 					<li>Firma</li>
 					<ul>
-						<li>Datenschutz</li>
-						<li>Impressum</li>
-						<li>AGB</li>
-						<li>Kontakt</li>
-						<li></li>
+						<li><a href="">Datenschutz</a></li>
+						<li><a href="">Impressum</a></li>
+						<li><a href="">AGB</a></li>
+						<li><a href="">Kontakt</a></li>
 					</ul>
 				</ul>
 			</div>
@@ -222,6 +248,7 @@
 		</div>
 	</footer>
 </body>
-<script src="../js/navbar.js"></script>
 <script src="../js/hamburger.js"></script>
+<script src="../js/navbar.js"></script>
+<script src="../js/slideshow.js"></script>
 </html>

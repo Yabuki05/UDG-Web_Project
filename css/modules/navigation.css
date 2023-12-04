@@ -26,6 +26,11 @@ nav {
 	align-items: center;
 }
 
+#navbar > div > a {
+	display: flex;
+	align-items: center;
+}
+
 #nav-container-logo {
 	grid-column: 1/2;
 }
@@ -65,4 +70,9 @@ li > a {
 .scrolled > div > ul > li > a:hover {
 	transition-duration: 0.2s;
 	color: rgb(255, 67, 46);
+}
+
+.logo-hamburger {
+	margin-top: 20px;
+	margin-left: 40px;
 }
