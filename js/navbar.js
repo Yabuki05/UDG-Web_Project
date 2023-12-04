@@ -3,13 +3,14 @@ window.onscroll = function () {
 };
 function scrollFunction() {
 	const nav = document.getElementById('navbar');
+	const burger = document.getElementById('burger');
 	if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
 		nav.classList.add('scrolled');
 		document.getElementById('logo').src = '../assets/UDG-Logo-black.png';
-		document.getElementById('burger').src = '../assets/Hamburger-Icon-black.svg.png';
+		burger.classList.remove('scrolled-burger');
 	} else {
 		nav.classList.remove('scrolled');
 		document.getElementById('logo').src = '../assets/UDG-Logo-white.png';
-		document.getElementById('burger').src = '../assets/Hamburger-Icon-white.svg.png';
+		burger.classList.add('scrolled-burger');
 	}
 }

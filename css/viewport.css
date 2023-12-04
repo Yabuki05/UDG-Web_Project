@@ -21,3 +21,11 @@
 		padding: 0 200px 0 200px;
 	}
 }
+
+@media only screen and (max-width: 300px) {
+	.prev,
+	.next,
+	.slides-caption {
+		font-size: 11px;
+	}
+}

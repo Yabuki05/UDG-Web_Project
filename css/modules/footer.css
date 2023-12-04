@@ -39,7 +39,13 @@
 	margin-left: -15px;
 }
 
-#footer-list > ul > ul > li:hover {
+#footer-list > ul > ul > li > a {
+	color: gray;
+	font-weight: 500;
+	text-transform: none;
+}
+
+#footer-list > ul > ul > li > a:hover {
 	color: white;
 }
 
