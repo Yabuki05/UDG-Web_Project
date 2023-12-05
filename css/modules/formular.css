@@ -1,0 +1,32 @@
+form {
+	width: 600px;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+fieldset {
+	margin-top: 30px;
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	border-color: rgb(255, 67, 46);
+}
+
+.radio > label {
+	font-size: 16px;
+}
+
+#submit {
+	height: 50px;
+	width: 150px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(255, 67, 46);
+	border: 1.5px solid;
+	border-color: rgb(255, 67, 46);
+	background-color: transparent;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background-color: rgba(255, 67, 46, 0.176);
+}
