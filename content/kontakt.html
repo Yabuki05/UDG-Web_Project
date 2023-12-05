@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="../css/modules/navigation.css">
 	<link rel="stylesheet" href="../css/modules/footer.css">
 	<link rel="stylesheet" href="../css/modules/main.css">
+	<link rel="stylesheet" href="../css/modules/formular.css">
 
 	<link rel="stylesheet" href="../css/viewport.css">
 
@@ -137,9 +138,123 @@
 				Kontaktieren sie uns
 			</h2>
 			<div class="text-left-1">
-				<table>
-					
-				</table>
+				<form method="post" action="../php/form-page.php">
+					<fieldset>
+						<legend>
+							Persönlich
+						</legend>
+						<table>						
+							<tr>
+								<td>
+									<label for="anrede">Anrede</label><br>
+									<select name="anrede" id="anrede" value="-">
+										<option value="" disabled selected>Anrede</option>
+								  		<option value="Herr">Herr</option>
+								  		<option value="Frau">Frau</option>
+								  		<option value="Keine Angabe">Keine Angabe</option>
+									</select>
+								</td>
+								<td>
+									<label for="titel">Titel</label><br>
+									<select name="titel" id="titel">
+										<option value="" disabled selected>Titel</option>
+								  		<option value="Dr">Dr</option>
+								  		<option value="Frau">Prof</option>
+								  		<option value="Keine Angabe">Keine Titel</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="vorname">Vorname:</label><br>	
+									<input type="text" id="vorname" name="vorname" placeholder="Vorname">
+								</td>
+								<td>
+									<label for="nachname">Nachname:</label><br>
+									<input type="text" id="nachname" name="nachname" placeholder="Vorname">
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+					<fieldset>
+						<legend>
+							Kontakt
+						</legend>
+						<table>
+							<tr>
+								<td>
+									<label for="mail">E-Mail Adresse:</label><br>	
+									<input type="email" id="mail" name="mail" placeholder="E-mail Adresse">
+								</td>
+								<td>
+									<label for="tel">Telefon Nummer:</label><br>	
+									<input type="text" id="tel" name="tel" placeholder="Telefon Nummer">
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+					<fieldset>
+						<legend>
+							Anschreiben
+						</legend>
+						<table>
+							<tr>
+								<td>
+									<label for="mail">Land:</label><br>	
+									<input type="text" id="land" name="land" placeholder="Land">
+								</td>
+								<td>
+									<label for="city">Ort:</label><br>	
+									<input type="text" id="city" name="city" placeholder="Ort">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="street">Straße</label><br>	
+									<input type="text" id="street" name="street" placeholder="Straße">
+								</td>
+								<td>
+									<label for="num">Hausnummer</label><br>	
+									<input type="text" id="num" name="num" placeholder="Hausnummer">
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+					<fieldset>
+						<legend>
+							Anliegen
+						</legend>
+						<table>
+							<tr>
+								<td>
+									<div class="radio">
+										<input type="radio" id="problem" name="radio" value="Problem" checked />
+										<label for="Problem">Problem</label>
+									</div>								
+									<div class="radio">
+										<input type="radio" id="request" name="radio" value="Anfrage" />
+										<label for="Anfrage">Anfrage</label>
+									</div>		
+									<div class="radio">
+										<input type="radio" id="else" name="radio" value="Sonstiges" />
+										<label for="Sonstiges">Sonstiges</label>
+									</div>
+								</td>	
+							</tr>
+							<tr>
+								<td>
+									<label for="expl">Beschreibung:</label><br>	
+									<textarea name="expl" id="expl" cols="60" rows="20"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input id="submit" type="submit" value="Absenden">
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+				</form> 
 			</div>
 		</div>
 	</main>
