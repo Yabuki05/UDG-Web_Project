@@ -8,7 +8,7 @@
 body {
 	margin: 0 auto;
 	display: grid;
-	grid-template-rows: 80px 1000px auto 620px;
+	grid-template-rows: 80px auto auto 620px;
 	grid-template-columns: 100%;
 	background-color: var(--White);
 	overflow-x: hidden; /*temporary - header slideshow width needs to be defined*/
