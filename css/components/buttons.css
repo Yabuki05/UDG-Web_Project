@@ -5,9 +5,9 @@
 	margin: 20px auto 20px auto;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
-	color: rgb(255, 67, 46);
+	color: var(--UDG-Red);
 	border: 1.5px solid;
-	border-color: rgb(255, 67, 46);
+	border-color: var(--UDG-Red);
 	background-color: transparent;
 	cursor: pointer;
 }

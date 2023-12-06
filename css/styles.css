@@ -1,7 +1,8 @@
-* {
+:root {
 	--UDG-Red: rgb(255, 67, 46);
 	--UDG-Gray: rgb(37, 46, 52);
 	--White: rgb(255, 255, 255);
+	--Black: rgb(0, 0, 0);
 }
 
 body {
@@ -9,10 +10,10 @@ body {
 	display: grid;
 	grid-template-rows: 80px 1000px auto 620px;
 	grid-template-columns: 100%;
-	background-color: rgb(255, 255, 255);
+	background-color: var(--White);
 	overflow-x: hidden; /*temporary - header slideshow width needs to be defined*/
 
-	color: white;
+	color: var(--White);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 21px;
 	font-weight: 400;
@@ -39,7 +40,7 @@ footer {
 
 a {
 	font-family: 'Open Sans', sans-serif;
-	color: white;
+	color: var(--White);
 }
 
 ul {
@@ -48,7 +49,7 @@ ul {
 
 h2,
 h3 {
-	color: rgb(37, 46, 52);
+	color: var(--UDG-Gray);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 5.25rem;
 	font-weight: 100;
@@ -66,5 +67,5 @@ p {
 a:hover,
 h3:hover {
 	transition-duration: 0.2s;
-	color: rgb(255, 67, 46);
+	color: var(--UDG-Red);
 }

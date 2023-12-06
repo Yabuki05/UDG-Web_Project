@@ -12,13 +12,13 @@ nav {
 
 .scrolled {
 	background: none;
-	background-color: white;
+	background-color: var(--White);
 	border-bottom: 5px solid;
 	border-color: rgba(0, 0, 0, 0.034);
 }
 
 .scrolled > div > ul > li > a {
-	color: black;
+	color: var(--Black);
 }
 
 #navbar > div {
@@ -69,7 +69,7 @@ li > a {
 
 .scrolled > div > ul > li > a:hover {
 	transition-duration: 0.2s;
-	color: rgb(255, 67, 46);
+	color: var(--UDG-Red);
 }
 
 .logo-hamburger {

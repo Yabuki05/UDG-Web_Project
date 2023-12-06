@@ -38,12 +38,12 @@
 .nav-toggle .bar {
 	height: 3px;
 	width: 100%;
-	background-color: rgb(0, 0, 0);
+	background-color: var(--Black);
 	transition: all 100ms ease-in-out;
 }
 
 .scrolled-burger > .bar {
-	background-color: rgb(255, 255, 255);
+	background-color: var(--White);
 }
 
 .nav-toggle:hover {
