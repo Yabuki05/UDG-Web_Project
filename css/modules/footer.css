@@ -1,7 +1,7 @@
 #footer-container {
 	grid-column: 4/5;
 	height: 620px;
-	background-color: rgb(37, 46, 52);
+	background-color: var(--UDG-Gray);
 	font-size: 16px;
 }
 
@@ -46,7 +46,7 @@
 }
 
 #footer-list > ul > ul > li > a:hover {
-	color: white;
+	color: var(--White);
 }
 
 #footer-tag {
