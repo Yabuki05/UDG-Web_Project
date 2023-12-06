@@ -17,7 +17,6 @@ img {
 .slideshow-container {
 	z-index: 1;
 	max-width: 100%;
-	min-width: 1900px;
 	position: relative;
 	margin: auto;
 	margin-top: -80px;

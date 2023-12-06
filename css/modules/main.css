@@ -5,12 +5,17 @@
 	margin-bottom: 100px;
 }
 
-.content-block > div > p {
+.content-block > div > p,
+h4 {
 	padding: 20px;
 }
 
+h4 {
+	padding-bottom: 0;
+}
+
 .blog-placeholder-img {
-	width: 200px;
+	width: auto;
 	height: 200px;
 	display: block;
 	margin: 20px auto 20px auto;
